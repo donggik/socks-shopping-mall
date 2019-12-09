@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>샥스 패밀리 - 양말 전용 쇼핑몰</title>
+    <style>
+      #columns{
+        column-width:350px;
+        column-count:4;
+        column-gap: 15px;
+      }
+      #columns figure{
+        display: inline-block;
+        width : 350px;
+        border:1px solid rgba(0,0,0,0.2);
+        margin:0;
+        margin-bottom: 15px;
+        padding:10px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+      }
+      #columns figure img{
+        width:100%;
+      }
+      #columns figure figcaption{
+        border-top:1px solid rgba(0,0,0,0.2);
+        padding:10px;
+        margin-top:11px;
+      }
+      h1{
+        font-size: 3rem;
+        text-align : center;
+      }
+      footer{
+        background-color : darkgray;
+        color : white;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: 1300px 1fr;
+      }
+    </style>
+  </head>
+  <body>
+  <div id = "grid">
+    <h1>SOCKS Family</h1>
+    <form action="index.html" method="post">
+      <br><br><br>
+      <input type="text" name="id" value="아이디를 입력하세요.">
+      <input type="password" name="ps" value="패스워드">
+      <input type="submit" value="로그인">
+    </form>
+  </div>
+    <div id="columns">
+      <figure>
+        <img src="image/1.jpg">
+        <figcaption>10대 추천!  귀여운 양말! <br> 가격 : 2500원</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/2.jpg">
+        <figcaption>어디에나 신을 수 있는 만능 양말! <br> 가격 : 3000원</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/3.jpg">
+        <figcaption>요가용 기능성 양말! <br> 가격 : 6000원 </figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/4.jpg">
+        <figcaption>3색 양말 <br> 가격 : 2000원</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/5.jpg">
+        <figcaption>계란 노른자 양말 <br> 가격 : 3500원</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/6.jpg">
+        <figcaption>크리스마스 기념 특전! 양말 초특가 할인! <br> 가격 : 990원</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/7.jpg">
+        <figcaption>Snow White, based on 16th century German fashion</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/8.jpg">
+        <figcaption>Ariel wearing an evening gown of the 1890’s</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image/9.jpg">
+        <figcaption>Tiana wearing the <i>robe de style</i> of the 1920’s</figcaption>
+      </figure>
+          </div>
+      <footer>
+        Developer : cho min sik<br>
+        e-mail : jms40301@naver.com
+      </footer>
+  </body>
+</html>
